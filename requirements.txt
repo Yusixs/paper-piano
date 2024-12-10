@@ -1,0 +1,13 @@
+# Install PyTorch and TorchVision with CUDA 12.1 support
+torch==2.0.1+cu121
+torchvision==0.15.2+cu121
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# General dependencies
+opencv-python
+mediapipe
+playsound
+numpy
+
+# YOLOv8 library
+ultralytics
