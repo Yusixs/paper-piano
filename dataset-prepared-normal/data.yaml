@@ -1,0 +1,13 @@
+train: D:/FAST - University/7th Semester/i210328_CV_Project/dataset-prepared-normal/train/images
+val: D:/FAST - University/7th Semester/i210328_CV_Project/dataset-prepared-normal/valid/images
+test: D:/FAST - University/7th Semester/i210328_CV_Project/dataset-prepared-normal/test/images
+
+nc: 1
+names: ['paper-piano']
+
+roboflow:
+  workspace: data-preperation
+  project: piano-dy1hm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data-preperation/piano-dy1hm/dataset/1
